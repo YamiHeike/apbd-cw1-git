@@ -8,4 +8,9 @@ public static class StatisticsHelper
         }
         return sum;
     }
+
+    public static double CalculateAverage(int[] numbers)
+    {
+        return numbers != null && numbers.Length != 0 ? numbers.Average() : 0;
+    }
 }
