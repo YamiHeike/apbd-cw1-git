@@ -13,4 +13,9 @@ public static class StatisticsHelper
     {
         return numbers != null && numbers.Length != 0 ? numbers.Average() : 0;
     }
+
+    public static int CalculateMax(int[] numbers)
+    {
+        return numbers != null ? numbers.Max() : 0;
+    }
 }
